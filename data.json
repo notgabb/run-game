@@ -1,0 +1,182 @@
+[
+  {
+    "topic": "CPU scheduler",
+    "sets": [
+      {
+        "title": "Quale algoritmo assegna la CPU al processo con il burst più breve?",
+        "answers": [
+          "FCFS",
+          "SJF",
+          "Round Robin",
+          "Priority Scheduling"
+        ],
+        "correct": 1
+      },
+      {
+        "title": "Nel Round Robin ogni processo riceve",
+        "answers": [
+          "Una priorità fissa",
+          "Un indirizzo di memoria",
+          "Un intervallo di tempo chiamato quanto",
+          "Tutta la CPU fino al termine"
+        ],
+        "correct": 2
+      },
+      {
+        "title": "Quale algoritmo esegue i processi nell'ordine in cui arrivano?",
+        "answers": [
+          "FCFS",
+          "SJF",
+          "Round Robin",
+          "LIFO"
+        ],
+        "correct": 0
+      },
+      {
+        "title": "Il context switch consiste",
+        "answers": [
+          "Nel cambio della memoria RAM",
+          "Nel passaggio dell'esecuzione da un processo a un altro",
+          "Nel cambio del PID",
+          "Nella cancellazione di un processo"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "topic": "Gestione della RAM",
+    "sets": [
+      {
+        "title": "L'MMU si occupa principalmente di",
+        "answers": [
+          "Gestire le periferiche USB",
+          "Tradurre gli indirizzi virtuali in indirizzi fisici",
+          "Gestire il filesystem",
+          "Eseguire i processi"
+        ],
+        "correct": 1
+      },
+      {
+        "title": "La TLB serve per",
+        "answers": [
+          "Memorizzare temporaneamente le traduzioni degli indirizzi",
+          "Controllare la velocità della RAM",
+          "Gestire gli interrupt",
+          "Memorizzare i processi terminati"
+        ],
+        "correct": 0
+      },
+      {
+        "title": "Un page fault si verifica quando",
+        "answers": [
+          "La CPU si surriscalda",
+          "Una pagina richiesta non è presente nella memoria fisica",
+          "Il processo termina",
+          "La TLB è completamente vuota"
+        ],
+        "correct": 1
+      },
+      {
+        "title": "La memoria virtuale permette",
+        "answers": [
+          "Di eliminare completamente la RAM",
+          "Di utilizzare uno spazio di indirizzamento maggiore rispetto alla memoria fisica disponibile",
+          "Di aumentare la frequenza della CPU",
+          "Di evitare il linking"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "topic": "Sistema operativo",
+    "sets": [
+      {
+        "title": "Qual è uno dei principali compiti del sistema operativo?",
+        "answers": [
+          "Progettare la CPU",
+          "Gestire le risorse hardware e software del sistema",
+          "Sostituire la RAM",
+          "Compilare automaticamente ogni programma"
+        ],
+        "correct": 1
+      },
+      {
+        "title": "La shell è principalmente",
+        "answers": [
+          "Un'interfaccia attraverso cui l'utente può interagire con il sistema",
+          "Il componente fisico della CPU",
+          "Una memoria cache",
+          "Un tipo di filesystem"
+        ],
+        "correct": 0
+      },
+      {
+        "title": "Quale componente permette al sistema operativo di interagire con una periferica?",
+        "answers": [
+          "Driver",
+          "Scheduler",
+          "Linker",
+          "Bootloader"
+        ],
+        "correct": 0
+      },
+      {
+        "title": "Il bootloader ha il compito di",
+        "answers": [
+          "Gestire la RAM durante l'esecuzione dei programmi",
+          "Avviare il sistema operativo",
+          "Gestire gli utenti",
+          "Eseguire il garbage collector"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "topic": "Gestione delle periferiche",
+    "sets": [
+      {
+        "title": "Il DMA permette",
+        "answers": [
+          "Alla periferica di trasferire dati verso la memoria senza coinvolgere continuamente la CPU",
+          "Di aumentare la frequenza della CPU",
+          "Di sostituire gli interrupt",
+          "Di eliminare la RAM"
+        ],
+        "correct": 0
+      },
+      {
+        "title": "Nel polling la CPU",
+        "answers": [
+          "Attende un interrupt dalla periferica",
+          "Controlla periodicamente lo stato della periferica",
+          "Trasferisce sempre i dati tramite DMA",
+          "Disattiva la periferica"
+        ],
+        "correct": 1
+      },
+      {
+        "title": "Quale meccanismo consente a una periferica di richiamare l'attenzione della CPU?",
+        "answers": [
+          "Interrupt",
+          "Paging",
+          "Linking",
+          "Spooling"
+        ],
+        "correct": 0
+      },
+      {
+        "title": "Lo spooling viene utilizzato principalmente per",
+        "answers": [
+          "Gestire dati attraverso una coda temporanea",
+          "Tradurre indirizzi virtuali",
+          "Cambiare il processo in esecuzione",
+          "Avviare il kernel"
+        ],
+        "correct": 0
+      }
+    ]
+  }
+]
