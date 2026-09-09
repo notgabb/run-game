@@ -197,12 +197,12 @@ function shuffleAnswers(q) {
   const order = q.answers.map((_, i) => i);
 
   // algoritmo di Fisher-Yates
-  let currentIndex = array.length;
+  let currentIndex = order.length;
   while (currentIndex != 0) {
     const j = Math.floor(Math.random() * currentIndex);
     currentIndex--;
     
-    [order[i], order[j]] = [order[j], order[i]];
+    [order[currentIndex], order[j]] = [order[j], order[currentIndex]];
   }
   return {
     title: q.title,
